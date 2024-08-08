@@ -1,0 +1,86 @@
+body{
+    font-family: 'Segoe UI', Arial;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.barratopo{
+    background-color: lightgreen;
+    overflow: hidden;
+    border-bottom: 3px solid green;
+    color: black;
+    width: 100%;
+}
+
+.logo{
+    margin: 0px 10px 5px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.grupo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.grupo>h2{
+    margin-top: 8px;
+}
+
+main{
+    text-align: center;
+}
+
+.frase{
+    font-size: 30px
+}
+
+.image{
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    border: 2px gainsboro solid;
+}
+
+.texto{
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 23px;
+    font-family: Arial;
+    margin: 0px auto;
+}
+
+.botão{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.botão:hover{
+    scale: 110%;
+}
+
+.botão:active{
+    background-color: lightslategray;
+    color: white;
+}
+
+.barrabottom{
+    background-color: lightgreen;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    border-top: 3px solid green;
+    color: black;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.cred{
+    line-height: 8px;
+    margin-top: 12px;
+}
