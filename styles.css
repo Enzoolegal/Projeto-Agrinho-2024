@@ -42,6 +42,7 @@ main{
     height: 40%;
     border-radius: 20px;
     border: 2px #dcdcdc solid;
+    min-width: 250px;
 }
 
 .texto{
